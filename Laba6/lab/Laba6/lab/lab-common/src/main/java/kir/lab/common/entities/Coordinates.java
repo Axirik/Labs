@@ -1,0 +1,13 @@
+package kir.lab.common.entities;
+
+import java.io.Serializable;
+
+public class Coordinates implements Serializable {
+    private Long x; //Поле не может быть null
+    private Long y; //Значение поля должно быть больше -867, Поле не может быть null
+
+    public Coordinates(Long x, Long y) {
+        this.x = x;
+        this.y = y;
+    }
+}
